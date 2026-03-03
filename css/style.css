@@ -1,7 +1,67 @@
-h1 {
-  color: red;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
 }
 
 img {
   width: 300px;
+}
+
+/* Hero Container */
+
+.hero {
+  background-color: #1f2937;
+}
+
+.hero2 h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero li,
+p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.logo {
+  width: 24px;
+  color: #f9faf8;
+}
+
+/* Button */
+
+button {
+  background-color: #3882f6;
+}
+
+/* Hero Secondary */
+
+.heroSecondary h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+}
+
+/* Quote Section */
+
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote p,
+span {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+}
+
+/* Footer */
+
+footer {
+  background-color: #1f2937;
 }
