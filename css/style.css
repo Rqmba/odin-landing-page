@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
-  height: 100vh;
+  min-height: 100vh;
   margin: 0;
   font-family: Roboto, sans-serif;
 }
@@ -13,7 +13,11 @@ img {
 /* Hero Container */
 
 .hero {
+  border: 2px solid red;
   background-color: #1f2937;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
 }
 
 .hero2 h1 {
@@ -33,6 +37,36 @@ p {
   color: #f9faf8;
 }
 
+.left-links {
+  border: 2px solid red;
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+}
+
+.right-links a {
+  text-decoration: none;
+  color: #e5e7eb;
+}
+
+.right-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  color: #e5e7eb;
+}
+
+.hero2 {
+  border: 2px solid red;
+  display: flex;
+  justify-content: center;
+  margin: 16px;
+  padding: 16px;
+  gap: 24px;
+}
+
 /* Button */
 
 button {
@@ -45,6 +79,23 @@ button {
   font-size: 36px;
   color: #1f2937;
   font-weight: 900;
+}
+
+.heroSecondary {
+  border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ContainerImg */
+
+.imGcontainer {
+  border: 2px solid red;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 6px;
 }
 
 /* Quote Section */
