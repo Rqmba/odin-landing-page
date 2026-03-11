@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 
 body {
-  min-height: 100vh;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: Roboto, sans-serif;
 }
 
@@ -15,18 +16,22 @@ img {
 .hero {
   background-color: #1f2937;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   padding: 16px;
 }
 
-.hero2 h1 {
+.hero-container {
+  width: 80%;
+}
+
+.hero-text-content h1 {
   font-size: 48px;
   color: #f9faf8;
   font-weight: 900;
 }
 
 .hero li,
-p {
+.hero p {
   font-size: 18px;
   color: #e5e7eb;
 }
@@ -38,7 +43,7 @@ p {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   padding: 16px;
 }
@@ -59,7 +64,7 @@ header {
 
 .hero-text-content {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   margin: 16px;
   padding: 16px;
@@ -97,6 +102,11 @@ button {
   align-items: center;
   text-align: center;
   gap: 6px;
+}
+
+.imGcontainer img {
+  height: 200px;
+  width: 200px;
 }
 
 /* Quote Section */
