@@ -20,10 +20,6 @@ img {
   padding: 16px;
 }
 
-.hero-container {
-  width: 80%;
-}
-
 .hero-text-content h1 {
   font-size: 48px;
   color: #f9faf8;
@@ -99,14 +95,27 @@ button {
 
 .imGcontainer {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
-  gap: 6px;
+  gap: 64px;
+}
+
+.imGcontainer figure {
+  width: 200px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .imGcontainer img {
   height: 200px;
   width: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.imGcontainer figcaption {
+  margin: 16px;
 }
 
 /* Quote Section */
@@ -160,7 +169,6 @@ button {
 
 .CTA button {
   border: 1.5px solid white;
-  margin-top: 24px;
 }
 
 /* Footer */
